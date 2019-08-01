@@ -14,7 +14,7 @@ Terms used in Git
 	-merge
 	-Fork
 		- Taking the copy of entire repository from one git account to another git account
-		- exact replica
+		- exact replica of master branch
 	-
 	
 
