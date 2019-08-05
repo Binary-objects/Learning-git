@@ -10,12 +10,11 @@ Terms used in Git
 	-Repositry : space/repository for the project
 	-commit : same as "save"
 	-branches
-	-pull request 
 	-merge
 	-Fork
 		- Taking the copy of entire repository from one git account to another git account
 		- exact replica of master branch
-	-
+	-pull request - Taking some other branch code to the master/other branch
 	
 
 
