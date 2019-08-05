@@ -49,3 +49,4 @@ Git Commands
 		example -  git add filename.txt
 12)git add . 	->[. will add any changes made in repository]
 	now commit changes - git commit -m "adding new file text"
+	
