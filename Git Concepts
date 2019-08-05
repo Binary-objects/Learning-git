@@ -17,41 +17,35 @@ Terms used in Git
 	-pull request - Taking some other branch code to the master/other branch
 	
 
-
-
-
-
 Git Commands 
 
-1)git init       		-> initialise the git repository at your local machine.
-2)git clone url  		-> github git repository present remotely
-2)git status 	 		-> It will show the your branch you are at with modified files.
+1)git init       	-> initialise the git repository at your local machine.
+2)git clone url  	-> github git repository present remotely
+2)git status 	 	-> It will show the your branch you are at with modified files.
 3)git commit  -a -m 	-> [ a stands for all changes and -m is for messege]
 							example - git commit -a -m "something changed in file"	
 
 4)When i made any git changes for the first we need to tell your computer who i'm (i.e git needs a author that is associated with this particular change) there it will ask you to define who you are by these commands-
 					
-						->git config --global user.email "username@gmail.com"(should be the same you singed-in in git)
-						->git config --global user.name "username"
+->git config --global user.email "username@gmail.com"(should be the same you singed-in in git)
+->git config --global user.name "username"
 
 5)git config --list 	-> listing the configuration setting for git on your local machine
 
-6)git log 				-> Allows you to see locally git commits. 
-					   		example - git log -2 [-2 defines number of last commits you wanna see ]
+6)git log -> Allows you to see locally git commits. 
+	example - git log -2 [-2 defines number of last commits you wanna see ]
 
 7)use :Q to get out of editor showing(END).
 
-9)git remote 			-> list all the remotes associated with my projects
-							example - git remote -v[v stands for verbose i.e it will show the url ]
+9)git remote 	-> list all the remotes associated with my projects
+	example - git remote -v[v stands for verbose i.e it will show the url ]
 
 10)git push origin branchName -> 
-		ex- git push origin[remotename] master[branch]
+	ex- git push origin[remotename] master[branch]
 	
 11)git pull
-
 	
-11)git add 		-> add new files 
-					example -  git add filename.txt
+11)git add 	-> add new files 
+		example -  git add filename.txt
 12)git add . 	->[. will add any changes made in repository]
-	
 	now commit changes - git commit -m "adding new file text"
