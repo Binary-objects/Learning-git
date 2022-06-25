@@ -52,5 +52,66 @@ Git Commands
 	
 13)git diff
 
-	working dir --->  staging dir -----> local dir 
+	working dir --->  staging area -----> local area 
+
+	Animal------> add  ----> Animal  ---------> (empty)
+	Bird			
+
+
+
+	GIT ADD will add the file into staging area
+
+
+	1) Difference in file content between working dir and staging area
+
+		diff --git a/concepts b/concepts
+		index 9526f7d..0bfbe13 100644
+		--- a/concepts
+		+++ b/concepts
+		@@ -52,5 +52,5 @@ Git Commands
+		        
+		 13)git diff
+		 
+		-       working dir --->  staging dir -----> local dir 
+		+       working dir --->  staging area -----> local area
+
+
+		a/concepts -- represent source (staging area)
+
+		b/concepts  -- represents destination (working dir)
+
+		9526f7d - hash of the file content -- (source/staging area)
+
+		0bfbe13 - hash of the file content -- (destination/working area)
+
+		100644 -- git file mode
+		100 -- type of the file
+		644 -- file permissions   -- rw-r-r
+
+		4- represent reading
+		2- write 
+		1- execute
+
+	2)	Difference in file content between WORKING DIR and LAST COMMMIT
+
+		GIT COMMIT will COPY the file whatever we have in STAGING AREA TO LOCAL REPOSITORY
+
+		--> LAST COMMIT is always refered as HEAD
+
+		--> git diff HEAD <filename>
+
+	3) Difference in file content between STAGING and LAST COMMIT
+	
+		to represent STAGE USE --staged	
+
+		git diff --staged HEAD <filename>  OR git diff --cached HEAD <filename> 
+
+		
+
+
+
+
+
+
+
 
