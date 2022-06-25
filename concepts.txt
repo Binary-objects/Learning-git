@@ -106,8 +106,12 @@ Git Commands
 
 		git diff --staged HEAD <filename>  OR git diff --cached HEAD <filename> 
 
-		
 
+	3) Difference in file content between SPECIFIC COMMIT and Working Dir
+
+		git log --oneline  -- > get commit id
+
+		git diff <commitid> <filename>
 
 
 
